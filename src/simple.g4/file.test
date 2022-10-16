@@ -1,0 +1,11 @@
+// Some comment
+int fixed[5] = { 1, 2, 3, 4, 5 };
+int[] dynamic;
+int integer = 25;
+
+// char name[MAX_NAME_LENGTH] = "Yes"
+
+if(integer) {
+	test();
+
+}

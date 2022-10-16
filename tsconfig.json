@@ -1,0 +1,20 @@
+{
+	"compilerOptions": {
+		"module": "ESNext",
+		"target": "esnext",
+		"moduleResolution": "Node",
+		"esModuleInterop": true,
+		"rootDir": "./src",
+		"outDir": "./dist",
+		"isolatedModules": true,
+		"baseUrl": "./src",
+		"lib": ["ESNext", "DOM"],
+		"allowJs": true
+	},
+	"ts-node": {
+		"esm": true,
+		"compiler": "typescript"
+	},
+	"lib": ["esnext"],
+	"exclude": [], "include": ["src/**/*"]
+}
