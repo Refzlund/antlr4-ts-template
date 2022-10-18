@@ -27,11 +27,15 @@ When `.js` or `.ts` changes within `src/*.g4/`, nodemon will rerun the applicati
 
 
 ## References
-To develop and understand `antlr4` better
+To develop and understand with `antlr4` better.
 
 - [GitHub Antlr4 Documentation](https://github.com/antlr/antlr4/blob/master/doc/index.md)
 - [A Course for Antl4](https://youtu.be/2o9ImGNI1uw)
 - [Talk - Alena Khineika: Writing compilers in JavaScript using ANTLR](https://youtu.be/-Gtsh9VlycI)
+- [Very simple JS Example](https://github.com/svzdvd/antlr4-javascript-example)
+- [More JS examples](https://github.com/maiermic/antlr4-javascript-examples)
+- [Language Server Extension Guide](https://code.visualstudio.com/api/language-extensions/language-server-extension-guide)
+- [Semantic Tokens Sample](https://github.com/microsoft/vscode-extension-samples/tree/main/semantic-tokens-sample)
 
 <br><br>
 
