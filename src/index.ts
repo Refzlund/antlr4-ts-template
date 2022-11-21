@@ -42,7 +42,8 @@ async function init() {
 			const generate = () => {
 				!gen && console.clear()
 				console.log('... Generating')
-				const command = `pnpm antlr4 -Dlanguage=JavaScript -visitor ${g4} -o ${generatedOutput}`
+				const command = `pnpm antlr4 -Dlanguage=JavaScript -visitor "${g4}" -o "${generatedOutput}"`
+				console.log(command)
 				try {
 					execSync(command)
 				} catch (error) {}
